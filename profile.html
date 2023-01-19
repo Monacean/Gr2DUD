@@ -7,6 +7,43 @@
     <title>Document</title>
 </head>
 <body>
+    <form method="post">
+        <label>Your Profile</label>
+
+        <div>
+            <h2>Upload image:</h2>
+        </div>
+        
+        <div>
+            <label>Name:<span style="color:red">*</span></label>
+            <div>
+                <input type="text" name="name" required>
+            </div>
+        
+            <label>Email:<span style="color:red">*</span></label>
+            <div>
+                <input type="email" name="email" required>
+            </div>
+        </div>
+        
+        <div>
+            <label>Phone:<span style="color:red">*</span></label>
+            <div>
+                <input type="text" name="mobile" required>
+            </div>
+        
+            <label>Designation:<span style="color:red">*</span></label>
+            <div>
+            <input type="text" name="designation" required>
+            </div>
+        </div>
+        <input type="hidden" name="editid" required>
+        
+        <div>
+            <button name="submit" type="submit">Save Changes</button>
+        </div>
+        
+        </form>
     
 </body>
 </html>
