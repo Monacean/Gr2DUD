@@ -7,6 +7,60 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+
+	<div>
+		<h1>Register</h1>
+	
+        <form method="post">
+            <div>
+                <label>Name:<span style="color:red">*</span></label>
+                    <div>
+                        <input type="text" name="name" required>
+                    </div>
+                
+                <label>E-mail:<span style="color:red">*</span></label>
+                    <div>
+                        <input type="text" name="email" required>
+                    </div>
+            </div>
+
+            <div>
+                <label>Password:<span style="color:red">*</span></label>
+                    <div>
+                        <input type="password" name="password" id="password" required >
+                    </div>
+
+                <label>Designation:<span style="color:red">*</span></label>
+                    <div>
+                        <input type="text" name="designation" required>
+                    </div>
+            </div>
+
+            <div>
+                <label>Gender:<span style="color:red">*</span></label>
+                    <div>
+                        <select name="gender" required>
+                            <option value="">Select</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+
+                <label>Phone:<span style="color:red">*</span></label>
+                    <div>
+                        <input type="number" name="mobileno" required>
+                    </div>
+            </div>
+
+
+			<br>
+                <button name="submit" type="submit">Register</button>
+            </form>
+            <br>
+            <br>
+			<p>Already Have Account? <a href="index.php" >Sign in</a></p>
+	</div>
+				
 </body>
 </html>
