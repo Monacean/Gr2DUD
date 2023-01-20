@@ -40,5 +40,14 @@ if (isset($_SESSION["user_id"])) {
  		<p><a href="login.php">Log in</a> or <a href="signup.html">create account</a></p>
 
  	<?php endif; ?>
+
+	 <div>
+		 <ul>
+			<li>Fag 1</li>
+			<li>Fag 2</li>
+			<li>Fag 3</li>
+			<li>Fag 4</li>
+		 </ul>
+	 </div>
  </body>
  </html>
