@@ -41,6 +41,11 @@ if (isset($_SESSION["user_id"])) {
 
  	<?php endif; ?>
 
+
+	 <br>
+	 <br>
+	 <br>
+
 	 <div>
 		 <ul>
 			<li><a href="#">Webutvikling - ITF14622</a></li>  <!--Flytt fagkodene inn som overskrifter for nettsidene når de lages?--> 
