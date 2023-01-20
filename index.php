@@ -48,7 +48,8 @@ if (isset($_SESSION["user_id"])) {
 
 	 <div>
 		 <ul>
-			<li><a href="#">Webutvikling - ITF14622</a></li>  <!--Flytt fagkodene inn som overskrifter for nettsidene når de lages?--> 
+			 <!--Flytt fagkodene inn som overskrifter for nettsidene når de lages?--> 
+			<li><a href="#">Webutvikling - ITF14622</a></li>  
 			<li><a href="#">Databasesystemer - ITF80319</a></li>
 			<li><a href="#">Informasjonssikkerhet - ITL27190</a></li>
 			<li><a href="#">Datanettverk - ITF34567</a></li>
