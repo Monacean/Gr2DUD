@@ -49,10 +49,10 @@ if (isset($_SESSION["user_id"])) {
 	 <div>
 		 <ul>
 			 <!--Flytt fagkodene inn som overskrifter for nettsidene når de lages?--> 
-			<li><a href="#">Webutvikling - ITF14622</a></li>  
-			<li><a href="#">Databasesystemer - ITF80319</a></li>
-			<li><a href="#">Informasjonssikkerhet - ITL27190</a></li>
-			<li><a href="#">Datanettverk - ITF34567</a></li>
+			<li><a href="webutvikling.php">Webutvikling</a></li>  
+			<li><a href="databasesystemer.php">Databasesystemer</a></li>
+			<li><a href="informasjonssikkerhet.php">Informasjonssikkerhet</a></li>
+			<li><a href="datanettvek.php">Datanettverk</a></li>
 		 </ul>
 	 </div>
  </body>
