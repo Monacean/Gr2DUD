@@ -48,7 +48,6 @@ if (isset($_SESSION["user_id"])) {
 
 	 <div>
 		 <ul>
-			 <!--Flytt fagkodene inn som overskrifter for nettsidene når de lages?--> 
 			<li><a href="webutvikling.php">Webutvikling</a></li>  
 			<li><a href="databasesystemer.php">Databasesystemer</a></li>
 			<li><a href="informasjonssikkerhet.php">Informasjonssikkerhet</a></li>
