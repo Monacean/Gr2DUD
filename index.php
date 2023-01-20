@@ -51,7 +51,7 @@ if (isset($_SESSION["user_id"])) {
 			<li><a href="webutvikling.php">Webutvikling</a></li>  
 			<li><a href="databasesystemer.php">Databasesystemer</a></li>
 			<li><a href="informasjonssikkerhet.php">Informasjonssikkerhet</a></li>
-			<li><a href="datanettvek.php">Datanettverk</a></li>
+			<li><a href="datanettverk.php">Datanettverk</a></li>
 		 </ul>
 	 </div>
  </body>
